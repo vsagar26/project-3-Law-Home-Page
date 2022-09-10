@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Lora:wght@400;500;600;700&family=Montserrat:wght@200;400;500;600;700;800;900&family=Oswald:wght@200;700&family=Poppins&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: url("./assets/pexels-ekaterina-bolovtsova-6077326.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 140px;
+    
+    
+    
+}
+
+.navbar{
+    background-color: #281e00;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    height: 380px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+   
+    
+   
+}
+
+.list{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-right: -160px;
+    
+}
+.list li{
+    padding: 0px 30px;
+    list-style: none;
+    font-size: 20px;
+    font-family: Montserrat;
+
+}
+
+.navbar div img{
+    margin-top: 30px;
+    margin-left: 120px;
+    height: 40px;
+}
+
+
+div + ul{
+    font-weight: 800;
+}
+
+.button-small{
+    background-color: transparent;
+    color: #7da317;
+    border-color: #7da317;
+    
+    height: 50px;
+    width: 200px;
+    padding: 12px 30px;
+    border-radius: 6px;
+    font-size: 20px;
+    font-family: Montserrat;
+}
+
+.button{
+    margin-right: 80px;
+    margin-top: 30px;
+}
+
+h1{
+    font-size: 76px;
+    font-family: Montserrat;
+    font-weight: 800;
+    color: #fff;
+    text-align: left;
+    text-transform: capitalize;
+    height: 200px;
+    width: 700px;
+    margin-top: -240px;
+    margin-left: 100px;
+}
+
+.text{
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 400;
+    color: #fff;
+    text-align: left;
+    margin-left: 830px;
+    margin-top: -150px;
+    width: 470px;
+    
+}
